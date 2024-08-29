@@ -10,7 +10,7 @@ interface ButtonProps{
 const Button = (props:ButtonProps) => {
   return (
     <TouchableOpacity className={`${props.disabled&&"opacity-50"} bg-yellow1 p-3 rounded-md`} activeOpacity={0.7} disabled={props.disabled} onPress={props.onClick}>
-        <Text className="text-blue2 font-bold">{props.children}</Text>
+        <Text className="text-background font-bold">{props.children}</Text>
     </TouchableOpacity>
   )
 }
