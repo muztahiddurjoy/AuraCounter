@@ -1,10 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
+import TodayHeader from '@/components/today/today-header'
 
 const TodayUpdate = () => {
   return (
     <View className='bg-background h-full'>
-      <Text>TodayUpdate</Text>
+      <TodayHeader/>
+      
     </View>
   )
 }
